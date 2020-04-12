@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{ page.title }} | Vassil Vassilev Personal Webpage</title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements an d media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Vassil Vassilev Personal Website">
+    <meta name="keywords" content="Vassil Vassilev, personal website, resume, personal, vcard, blog, portfolio, modern, professional">
+    <meta name="author" content="V. Vassilev">
+    <meta name="Resource-type" content="Document" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- Required Framework-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <!-- Google font & font-awesome-->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <!--Video pop-up css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+
+    <!-- Style css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Reset css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  </head>
+  <body>
+
+    <!--Loader-->
+    <div id="main_loader">
+      <div id="loader">
+        <div></div>
+      </div>
+    </div>
+    <!--End Loader-->
+
+    {% include navigation.html %}
+
+    <!--Mobile Menu icon-->
+    <div id="sidebar-btn" class="sidebar-btn toggle_icon_block" data-action="toggle" data-side="left">
+      <div id="toggle_icon" class="toggle_icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--End Mobile Menu icon-->
+
+    <!--Main-->
+    <main class="cd-main">
+      <!--Inner Main Section-->
+      <section class="cd-section index visible">
+
+        <!--Main Container-->
+        <div class="container home_container">
+          <div class="ptb-60">
+            {{ content }}
+          </div>
+        </div>
+        <!--End Main Container-->
+
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 text-left">
+                <h6>Vassil Vassilev</h6>
+              </div>
+              <div class="col-sm-6 text-right">
+                <h6> Copyright &copy; <span id="copyright-year">2016</span>. All rights reserved </h6>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--End footer-->
+
+      </section>
+      <!--End Inner Main Section-->
+    </main>
+    <!--End Main-->
+
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 9]>
+        <div class="ie-warning">
+          <h1>Warning!!</h1>
+          <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+          <div class="iew-container">
+            <ul class="iew-download">
+              <li>
+                <a href="http://www.google.com/chrome/">
+                  <img src="assets/images/browser/chrome.png" alt="chrome">
+                  <div>Chrome</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                  <img src="assets/images/browser/firefox.png" alt="firefox">
+                  <div>Firefox</div>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.opera.com">
+                  <img src="assets/images/browser/opera.png" alt="opera">
+                  <div>Opera</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.apple.com/safari/">
+                  <img src="assets/images/browser/safari.png" alt="safari">
+                  <div>Safari</div>
+                </a>
+              </li>
+              <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                  <img src="assets/images/browser/ie.png" alt="ie">
+                  <div>IE (9 & above)</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p>Sorry for the inconvenience!</p>
+        </div>-->
+    <!--[endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required js -->
+    <script src="assets/js/jquery.2.2.3.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Mobile Sidebar menu js  -->
+    <script src="assets/js/jquery.sidebar.min.js"></script>
+
+    <!-- Counter js  -->
+    <script src="assets/js/jquery.counterup.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!-- Video pop-up js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom script js  -->
+    <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript">
+      document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+    </script>
+    <script type="text/javascript">
+
+      /*Magnific Pop-Up Js starts*/
+      $('#video_modal').magnificPopup({
+      type: 'iframe',
+      closeOnBgClick: false,
+      iframe: {
+      markup: '<div class="mfp-iframe-scaler">'+
+        '<div class="mfp-close"></div>'+
+        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+        '<div class="mfp-title">Some caption</div>'+
+        '</div>'
+      },
+      callbacks: {
+      markupParse: function(template, values, item) {
+      values.title = item.el.attr('title');
+      }
+      },
+      removalDelay: 300,
+      mainClass: 'mfp-fade'
+      });
+      /*Magnific Pop-Up Js ends*/
+
+      /*Counter Js Starts*/
+
+      $('.counter').counterUp({
+      delay: 10, // the delay time in ms
+      time: 900 // the speed time in ms
+      });
+      /*Counter Js Ends*/
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,654 @@
+@media only screen and (min-width: 1900px){
+    .portfolio_footer{
+        position: fixed;
+        bottom:0;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 1199px) {
+    /*General css*/
+    
+    h1 {
+        margin-top: 0px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 13px;
+        margin-top: 0;
+        margin-top: 10px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    a,
+    .port_detail_url {
+        font-size: 15px;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    .mb40,
+    .mb60,
+    .mb70,
+    .mb80,
+    .mb30 {
+        margin-bottom: 20px;
+    }
+    .mt40{
+        margin-top: 20px;
+    }
+    .ptb-60 {
+        padding: 40px 0;
+    }
+    .mtb-40 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .system_btn {
+        font-size: 17px;
+    }
+    /*Home page starts*/
+    
+    .home_author_name h4 {
+        margin-bottom: 20px;
+    }
+    .home_facts h5 {
+        font-size: 15px;
+    }
+    .offered_services_icon {
+        margin: 0;
+    }
+    /*Home page ends*/
+    /*Portfolio page starts*/
+    
+    .portfolio_filters_group ul {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    /*Portfolio page ends*/
+    /*Portfolio2 starts*/
+    
+    .port_hover_div h3 {
+        padding-top: 0px;
+    }
+    .port_hover_div p {
+        padding: 20px 0;
+    }
+    /*Portfolio2 ends*/
+    /*Portfolio details page starts*/
+    
+    .port_details_all_img {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .port_detail_url a {
+        font-size: 15px;
+    }
+    .copy_link {
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .port_source li {
+        margin-bottom: 20px;
+    }
+    .port_tech_item {
+        margin-bottom: 10px;
+    }
+    
+    .recent_post {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .recent_post h5 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .recent_post img {
+        width: 100%;
+    }
+    /*Portfolio details page ends*/
+
+    /*Blog page starts*/
+    .blog_person{
+        margin-bottom: 20px;
+    }
+    .blog_block{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    /*Blog page ends*/
+
+    /*Blog Details page starts*/
+    .blog_details_person{
+        margin-bottom: 0px;
+    }
+    /*Blog Details page ends*/
+}
+@media only screen and (max-width: 991px) {
+    /*General css starts*/
+    
+    h3 {
+        font-size: 20px;
+    }
+    /*General css ends*/
+    /*Portfolio details page strts*/
+    
+    .port_detail_title {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+    }
+    .port_tech_item .divider {        
+        padding-bottom: 0px;
+    }
+    
+
+    /*Portfolio details page ends*/
+    /*Blog page starts*/
+    
+    .blog_person h5 {
+        border-right: medium none;
+        margin-right: 0;
+    }
+    /*Blog page ends*/
+}
+@media only screen and (max-width: 767px) {
+    /*General css starts*/
+    
+    .home_author_details h1 {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    .valign-wrapper {
+        display: block;
+    }
+    .mob_center{
+        text-align: center;        
+    }
+    .blog_detail_reply_form .mob_center{
+        margin-bottom: 15px;
+    }
+    /*General css ends*/
+
+    /*Modal css starts*/
+    .modal_profile li{
+        padding-left: 0;
+        position: inherit;
+        text-align: center;
+    }
+    .modal_profile .profile_pic{
+        position: inherit;
+        margin:0 auto;
+    }
+    .working_hour{
+        position: inherit;
+    }
+    .modal_profile h4{
+        display: block;
+    }
+    .modal_profile .available_icon{
+        margin-left: 0;
+    }
+    .modal_profile h3{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .modal_profile_tag span{
+        background: transparent none repeat scroll 0 0;    
+        font-weight: 600;  
+        padding: 0;
+    }
+    .availability_tags span{
+        padding: 6px 11px;
+        font-size: 13px;
+        margin-right: 2px;
+    }
+    .freelance_acc_img img {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+    /*Modal css ends*/
+
+    /*Home page starts*/
+    
+    .home_author_details {
+        text-align: center;
+    }
+    .home_social_icon {
+        padding: 10px 0;
+    }
+    .home_author_name h4 {
+        margin-bottom: 20px;
+    }
+    .home_facts {
+        margin-bottom: 20px;
+    }
+    .home_facts h5 {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .home_facts span {
+        font-size: 25px;
+    }
+    .home2 img{
+        width: 130px;
+    }
+    .table tr,
+    .table td {
+        font-size: 15px;
+    }
+    .table th {
+        font-size: 15px;
+    }
+    .offered_services .col-sm-4 {
+        margin-bottom: 20px;
+    }
+    .offered_services .col-sm-4:last-child {
+        margin-bottom: 0;
+    }
+    .author_bio_img img {
+        margin: 0 auto 20px;
+    }
+    .video-play-icon a {
+        height: 70px;
+        width: 70px;
+        padding: 18px 27px;
+    }
+    .video-img-block.mb20 {
+        margin-bottom: 0px;
+    }
+    .sign_img{
+        text-align: center;
+        float: none !important;
+    }
+    .sign_img img{
+        display: inline-block;
+    }
+    .system_btn.quick_btn{
+        margin: 20px 0;
+    }
+    /*Home Page ends*/
+
+    /*Portfolio page starts*/
+    
+    .mobile_tabs {
+        background-color: transparent;
+        border-radius: 3px;
+        color: #0487cc;
+        font-size: 17px;
+        padding: 5px 10px;
+        transition: all 0.2s ease-in 0s;
+        opacity: 0.5;
+        font-weight: 800;
+    }
+    .mobile_tabs:hover {
+        border: 1px solid transparent;
+    }
+    .current {
+        border: 1px solid transparent;
+        opacity: 1;
+        font-weight: 800;
+    }
+    .more_portfolio_btn {
+        margin-top: 10px;
+    }
+    .grid-item{
+        width: 100%;
+    }
+    
+    /*Portfolio page ends*/
+
+    /*Portfolio details page starts*/
+    
+    .port_social_icon img {
+        margin-bottom: 10px;
+    }
+    .recent_post > a{
+        margin:0 auto;
+        text-align: center;
+    }
+    .recent_post img{
+    margin-bottom: 10px;
+    }
+    .port_detail_url input{
+        width: 65%;
+        font-size: 13px;
+    }
+    .port_social_icon a:first-child img{
+        margin-left: 55px;
+    }
+    .port_social_icon{
+        padding: 0;
+        text-align: left;
+    }
+    .copied::after{
+        right: 30%;
+        top:19%;
+        font-size: 13px;
+    }
+    .slick-prev ,.slick-next{
+        width: 10%;
+    }
+    .slick-prev::before, .slick-next::before{
+        font-size: 25px;
+    }
+    .mob_chart , .mob_chart2 {
+        margin-bottom: 20px;
+    }
+    .mob_chart h5, .mob_chart2 h5{
+        margin-top: 0;
+    }
+    .mob_chart:last-child , .mob_chart2:last-child{
+        margin-bottom: 0;
+    }
+    /*Portfolio details page ends*/
+
+    /*Blog details starts*/
+    .blog_post_img{
+        width: 33%;
+        float: left;
+    }
+    .mob_control{
+        margin-bottom: 15px;
+    }
+    
+    /*Blog details ends*/
+
+    /*Footer Starts*/
+    footer .text-left ,footer .text-right{
+        float: inherit;
+        text-align: center;
+    }
+    footer .text-left h6:first-child{
+  margin-top: 0;
+}
+.col-sm-6.text-right > h6{
+    margin-top: 10px;    
+}
+/*Footer ends*/
+
+}
+@media only screen and (min-width: 530px) and (max-width: 767px){
+    .mob_chart{
+        width: 33%;
+        margin-bottom: 0;
+    }    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*General css starts*/
+    
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        margin-top: 0px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    /*General css ends*/
+
+    /*Modal css starts*/
+    .modal_profile h3{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .working_hour{
+        position: inherit;
+    }
+    .modal_profile_tag span{
+        font-weight: 600;
+        padding: 0;
+        background: transparent;
+    }
+    .availability_tags span {   
+        font-size: 13px;
+        margin-right: 2px;
+        padding: 8px 10px;
+    }
+    .modal_profile_bottom .col-sm-6 .mb40:nth-child(2){
+        margin-bottom: 60px;
+    }
+    /*Modal css ends*/
+    /*Home Page starts*/
+    
+    .home_author_name h4 {
+        margin-bottom: 20px;
+    }
+    .home_para_hide {
+        display: none;
+    }
+    .home_social_icon {
+        padding: 10px 0;
+    }
+    /*Home Page ends*/
+    /*Portfolio2 starts*/
+    
+    .port_hover_div h3 {
+        padding-top: 0px
+    }
+    .port_hover_div p {
+        padding: 15px 0;
+    }
+    .port_hover_div .system_btn {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    /*Portfolio2 ends*/
+
+    /*Portfolio details starts*/
+    .port_social_icon a:first-child img{
+        margin-left: 55px;
+    }
+    .port_social_icon{
+        padding: 0;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .port_detail_url input{
+        font-size: 14px;
+    }
+    /*Portfolio details ends*/
+
+    /*Blog Details page starts*/
+    .latest_blog{
+        width: 100%;
+    }
+    /*Blog Details page ends*/
+
+    /*Resume page starts*/
+        /*Resume page ends*/
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*General css starts*/
+    
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    /*General css ends*/
+
+    /*Portfolio details starts*/
+    
+    .port_tech_item .divider {
+        width: 86%;
+    }
+
+    .port_detail_url input{
+        width: 74%;
+        font-size: 14px;
+    }
+    
+    .port_social_icon{
+        padding: 5px;        
+    }
+    /*Portfolio details ends*/    
+}
+@media only screen and (max-width: 1340px) {
+    /*For Toggle Icon On Right*/    
+    .toggle_icon {
+        display: block;
+        right: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .system_btn {
+        font-size: 13px;
+    }
+    .blog_comment_icons span{
+        margin-right: 15px;
+    }   
+    /*Resume css starts*/
+    .timeline.timeline-left .timeline-date{
+        margin-left: -140px;
+    }
+    .timeline-date h4{
+        max-width: 82px;
+    }
+    /*Resume css ends*/
+
+    .availability_tags span{
+        margin-right: 0;
+        padding: 6px 9px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .recent_post > a{
+        margin:initial;
+        text-align: left;
+    }
+    .recent_post .col-sm-4{
+        display: inline-block;
+        float: left;
+    }
+    .recent_post .col-sm-8{
+        display: inline-block;
+    }
+    .recent_post a{
+        display: flex;
+        align-items:center;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .cd-side-navigation {
+    width: 94px;
+  }
+  .cd-side-navigation a {
+    padding: 20px 0;
+    font-size: 1.3rem;
+  }
+  .cd-side-navigation a span{    
+    padding-top: 10px;
+    color: #fff;
+  }
+    /*Portfolio details page starts*/
+    
+    .port_detail_url {
+        font-size: 14px;
+    }
+    .port_detail_url a {
+        font-size: 11px;
+    }
+    
+    /*Portfolio details page ends*/
+
+    /*Blog details starts*/
+    .blog_post_img{
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .blog_post_img:last-child{
+        margin-bottom: 0px;
+    }
+    .blog_post_img img{
+        margin: 0 auto 10px;        
+    }
+    .blog_post_img p{
+        text-align: center;
+    }
+
+.latest_blog{
+    border-bottom: 1px solid #cccccc;
+}
+.latest_blog:last-child{
+    border: none;
+}
+
+.latest_blog h5{
+    text-align: center;    
+    margin-bottom: 20px;
+}
+.latest_blog h6{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+    /*Blog details ends*/
+
+    /*Resume css starts*/
+    .timeline.timeline-left::before{
+        margin-left: 106px;
+    }
+    .timeline.timeline-left .timeline-block{
+        margin-left: 110px;
+    }
+    .timeline.timeline-left .timeline-date{
+        margin-left: -145px;
+    }
+    .timeline-date h4{
+        max-width: 90px;
+    }
+    /*Resume css ends*/
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px){
+    h1{
+        font-size: 55px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .home_author_name2 .home_author_details h4,.home_author_name2  .mb40,.home_author_name2 .mb60{
+        margin-bottom: 10px;
+    }
+    .home2 img{
+        width: 150px;
+    }
+    .desktop_padding{
+        padding-top:10px; 
+    }
+    .sign_img img{
+        width: 170px;
+    }
+}
