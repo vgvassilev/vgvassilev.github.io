@@ -158,47 +158,13 @@
     <script src="assets/js/jquery.counterup.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
 
-    <!-- Video pop-up js -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-
     <!-- Custom script js  -->
     <script src="assets/js/script.js"></script>
 
     <script type="text/javascript">
       document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
     </script>
-    <script type="text/javascript">
 
-      /*Magnific Pop-Up Js starts*/
-      $('#video_modal').magnificPopup({
-      type: 'iframe',
-      closeOnBgClick: false,
-      iframe: {
-      markup: '<div class="mfp-iframe-scaler">'+
-        '<div class="mfp-close"></div>'+
-        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-        '<div class="mfp-title">Some caption</div>'+
-        '</div>'
-      },
-      callbacks: {
-      markupParse: function(template, values, item) {
-      values.title = item.el.attr('title');
-      }
-      },
-      removalDelay: 300,
-      mainClass: 'mfp-fade'
-      });
-      /*Magnific Pop-Up Js ends*/
-
-      /*Counter Js Starts*/
-
-      $('.counter').counterUp({
-      delay: 10, // the delay time in ms
-      time: 900 // the speed time in ms
-      });
-      /*Counter Js Ends*/
-
-    </script>
     <!-- Extra js -->
     {% for js in page.extra_js %}
     <script src="assets/js/{{ js }}"></script>
