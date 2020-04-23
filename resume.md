@@ -210,5 +210,155 @@ extra_js:
     </div>
     <!--End of Education-->
 
+    <!--Management Skills-->
+    <div class="mb40">
+      <h3>Management Skills</h3>
+      <div class="scroll_page_table">
+        <table class="table table-responsive">
+          <tbody>
+            <!--1-->
+            <tr>
+              <th class="pb40">Strategic</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Ran own software company from 2008 to 2010.
+                Responsible for setting objectives, analyzing business
+                requirements and project management.</td>
+            </tr>
+            <!--2-->
+            <tr>
+              <th class="pb40">Supervisory</th>
+              <th class="pb40"></th>
+              <td class="pb40">
+                <ul>
+                  <li>Supervision of a small team of engineers,
+                    setting milestones and defining deliverables, monitoring
+                    progress and helping at technical level.
+                  </li>
+                  <li> Supervision of undergraduate, graduate
+                    (University of Plovdiv), summer (Google Summer of Code and
+                    CERN), technical students (CERN) and DIANA-HEP fellow
+                    students (Princeton University).
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--Technical Areas of Expertise-->
+    <div class="mb40">
+      <h3>Technical Areas of Expertise</h3>
+
+      <div class="scroll_page_table">
+        <table class="table table-responsive">
+          <tbody>
+            <!--1-->
+            <tr>
+              <th class="pb40">Concepts</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Object-Oriented Design, Design Patterns</td>
+            </tr>
+            <!--2-->
+            <tr>
+              <th class="pb40">Programming Languages</th>
+              <th class="pb40">:</th>
+              <td class="pb40">C++, C#, C, Pascal, Object Pascal, Java,
+                Intel Assembler, IL, LLVM IR, OpenCL, PHP, JavaScript
+              </td>
+            </tr>
+            <!--3-->
+            <tr>
+              <th class="pb40">Architectures and VMs</th>
+              <th class="pb40">:</th>
+              <td class="pb40">x86, RISC, CISC; LLVM, CLR, JVM</td>
+            </tr>
+            <!--4-->
+            <tr>
+              <th class="pb40">Operating Systems</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Linux, MacOS, Windows</td>
+            </tr>
+            <!--5-->
+            <tr>
+              <th class="pb40">IDEs</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Borland Delphi, Visual Studio, SharpDevelop,
+                MonoDevelop, Borland C++ Builder, JBuilder, NetBeans, Eclipse,
+                Emacs (:-))
+              </td>
+            </tr>
+            <!--6-->
+            <tr>
+              <th class="pb40">Frameworks and Libraries</th>
+              <th class="pb40">:</th>
+              <td class="pb40">ROOT, VCL, .NET, Mono, Mono.Cecil, Drupal,
+                Joomla, Symfony.
+              </td>
+            </tr>
+            <!--7-->
+            <tr>
+              <th class="pb40">Asynchronous Systems</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Apache, Tomcat, InterBase/Firebird, MySQL,
+                MS SQL
+              </td>
+            </tr>
+            <!--8-->
+            <tr>
+              <th class="pb40">Build Systems</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Make, CMake, CTest, CDash</td>
+            </tr>
+            <!--9-->
+            <tr>
+              <th class="pb40">Documentation Systems</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Sphinx, Doxygen</td>
+            </tr>
+            <!--10-->
+            <tr>
+              <th class="pb40">Other Technologies and Standards</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Shell Scripts, Batch Files, HTML/DHTML, CSS,
+                CMS, XML, UML, SQL, Client/Server, Thick Clients, Win32 API,
+                Subversion Control, GIT
+              </td>
+            </tr>
+            <!--11-->
+            <tr>
+              <th class="pb40">Continuous integration</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Electric Commander, Hudson CI, Jenkins,
+                Travis CI
+              </td>
+            </tr>
+            <!--12-->
+            <tr>
+              <th class="pb40">Project Management Tools</th>
+              <th class="pb40">:</th>
+              <td class="pb40">Microsoft Project, Trello, JIRA</td>
+            </tr>
+            <!--13-->
+            <tr>
+              <th class="pb40">Specialized in</th>
+              <th class="pb40"></th>
+              <td class="pb40">
+                <ul>
+                  <li>Programming Languages Design and Implementation</li>
+                  <li>Software Optimization</li>
+                  <li>Distributed Applications in Heterogeneous Environment</li>
+                  <li>Internet and Intranet Applications, Working with Databases</li>
+                  <li>Application Software</li>
+                  <li>System Administration</li>
+                  <li>Project Management</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
