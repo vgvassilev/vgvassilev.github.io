@@ -41,7 +41,7 @@ extra_js:
               Research Software Engineer, Princeton University at European Center
               for Nuclear Research (CERN).
             </p>
-            <div class="timeline-date">Mar, 2019-present
+            <div class="timeline-date">Mar, 2019 - present
               <h4 class="system_font_color">Research Software Engineer</h4>
             </div>
           </div>
@@ -58,7 +58,7 @@ extra_js:
               ROOT (IPCC ROOT). Managing staff, CERN students, Google Summer of
               Code students.
             </p>
-            <div class="timeline-date">Jan 2017-2019
+            <div class="timeline-date">Jan 2017 - Dec 2019
               <h4 class="system_font_color">Consultant</h4>
             </div>
           </div>
