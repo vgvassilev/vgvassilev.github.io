@@ -88,7 +88,7 @@ layout: default
           <tr>
             <th class="pb40">Email</th>
             <th class="pb40">:</th>
-            <td class="pb40"><a href="mailto:v.g.vassilev@gmail.com" target="_top">v.g.vassilev@gmail.com</a></td>
+            <td class="pb40"><a href="mailto:v[dot]g[dot]vassilev[at]gmail[dot]com" target="_top">v[dot]g[dot]vassilev[at]gmail[dot]com</a></td>
           </tr>
           <tr>
             <th>Website</th>
