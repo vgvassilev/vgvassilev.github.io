@@ -27,7 +27,13 @@ layout: default
       </h4>
     </div>
     <p class="home_para_hide">
-      A motivated individual with a PhD degree in computing and experience in big data analysis frameworks. Experienced system engineer, expert in the field of compiler construction and technologies such as LLVM and Clang. Authored the C++ interpreter Cling and contributed to Clang's C++ modules adoption and implementation. Proficiency in C++, STL, ROOT, Cling, LLVM, Clang. Good communicator, acknowledged for the effective translation of problems to the generation of efficient solutions.
+      A motivated individual with a PhD degree in computing and experience in big
+      data analysis frameworks. Experienced system engineer, expert in the field
+      of compiler construction and technologies such as LLVM and Clang. Authored
+      the C++ interpreter Cling and contributed to Clang's C++ modules adoption
+      and implementation. Proficiency in C++, STL, ROOT, Cling, LLVM, Clang.
+      Good communicator, acknowledged for the effective translation of problems
+      to the generation of efficient solutions.
     </p>
     <p class="home_para_hide">
       Bulgarian national body representative for ISO SC22 and WG21 (ISOCPP) standardization committees.
@@ -126,9 +132,10 @@ layout: default
                   </p>
                   <div class="modal_profile_tag">
                     <span>C++</span>
-                    <span>Compiler technology</span>
-                    <span>System programming</span>
-                    <span>Project management</span>
+                    <span>Compiler Technology</span>
+                    <span>Performance Engineering</span>
+                    <span>System Programming</span>
+                    <span>Project Management</span>
                   </div>
                 </div>
                 
