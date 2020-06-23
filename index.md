@@ -47,21 +47,6 @@ layout: default
 </div>
 <!--End Intro-->
 
-<!--Some Facts-->
-<div class="row">
-  <div class="col-sm-12 mb40">
-    <div>
-      <h2>Some <span class="bolder">facts</span></h2>
-      <!-- Prepare a container for your github calendar. -->
-      <div class="github-calendar">
-        <!-- Loading stuff -->
-        Loading the data just for you.
-      </div>
-    </div>
-  </div>
-</div>
-<!--End Some Facts-->
-
 <!--Bio-->
 <h2>Bio</h2>
 <p class="mb40">
@@ -79,6 +64,72 @@ layout: default
   I am a research software engineer.
 </p>
 <!--End Bio-->
+
+<!--Research-->
+<div class="row">
+  <div class="col-sm-12 mb40">
+    <div>
+      <h2>Research</h2>
+      <p>
+        At the moment, my research interests lie in the general area of
+        programming language design and implementation and software optimization.
+        I am particularly interested in open, interactive and dynamic visual
+        programming languages.
+
+        Also, I am interested in developing methods for optimization/transformation
+        of real-time computer programs, which work with large amounts of data.
+
+        Last but not least, I am interested in working on broader, cutting-edge
+        developments and design problems in the field of the software engineering.
+      </p>
+      <h3>Selected Papers</h3>
+      <!-- FIXME: Use jekyll-scholar to manage papers -->
+      <p>
+      Vassilev, M., Vassilev, V. and Penev, A., 2020. IDD–A Platform Enabling
+      Differential Debugging. <i>Cybernetics and Information Technologies</i>,
+      20(1), pp.53-67.
+      <br />
+      López-Gómez, J., Fernández, J., Astorga, D.D.R., Vassilev, V., Naumann, A.
+      and García, J.D., 2020, February. Relaxing the one definition rule in
+      interpreted C++. In <i>Proceedings of the 29th International Conference on
+        Compiler Construction </i> (pp. 212-222).
+      <br />
+      Vassilev, V., 2016, October. Optimizing ROOT’s Performance Using C++ Modules.
+      In <i>Journal of Physics: Conference Series</i> (Vol. 898, No. 10.1088, pp. 1742-6596).
+      <br />
+      Vassilev, V., Vassilev, M., Penev, A., Moneta, L. and Ilieva, V., 2015.
+      Clad—automatic differentiation using Clang and LLVM. In <i>Journal of
+        Physics: Conference Series </i> (Vol. 608, No. 1, p. 012055). IOP Publishing.
+      <br />
+      Vasilev, V., Canal, P., Naumann, A. and Russo, P., 2012, December.
+      Cling–the new interactive interpreter for root 6. In <i>Journal of Physics:
+        Conference Series </i> (Vol. 396, No. 5, p. 052071). IOP Publishing.
+      </p>
+    </div>
+  </div>
+</div>
+<!--End Research-->
+
+
+<!--Engineering-->
+<div class="row">
+  <div class="col-sm-12 mb40">
+    <div>
+      <h2>Engineering</h2>
+      <h3>Selected Projects</h3>
+      <p>
+        clad, cling, ROOT, clang, llvm.
+      </p>
+      <!-- Prepare a container for your github calendar. -->
+      <div class="github-calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Engineering-->
+
 
 <!--Personal info-->
 <div class="row valign-wrapper mb40">
