@@ -7,7 +7,7 @@ layout: default
   <div class="col-sm-6">
     <div class="home_icon_block">
       <!--Main Image-->
-      <img class="img img-responsive" src="assets/images/VassilInPrinceton.jpg" alt="Research Software Engineer and IT Consultant">
+      <img class="img img-responsive" src="assets/images/VassilInPrinceton.jpg" alt="Research Software Consultant">
       <!--Social icons-->
       <div class="home_social_icon">
         <a target="_blank" href="https://www.linkedin.com/in/vgvassilev/">
@@ -21,7 +21,7 @@ layout: default
     <div class="home_author_details">
       <!--Main Name-->
       <h1>Vassil <span class="bolder">Vassilev</span>, PhD</h1>
-      <h3>Research Software Engineer and IT Consultant</h3>
+      <h3>Research Software Consultant</h3>
       <h4>
         <span></span>
       </h4>
@@ -61,7 +61,7 @@ layout: default
   
   In 2015 became a FermiLab contractor at CERN. In 2017 became a
   consultant for Princeton University and from 2019 until present
-  I am a research software engineer.
+  I am a research software consultant.
 </p>
 <!--End Bio-->
 
@@ -176,7 +176,7 @@ layout: default
                 <img class="profile_pic img img-responsive" src="assets/images/vassil_avatar.png" alt="home_avatar_thumb">
                 <div>
                   <h3>Vassil Vassilev</h3>
-                  <p>Research Software Engineer</p>
+                  <p>Research Software Consultant</p>
                   <p class="modal_location mb20">
                     <img class="img img-responsive" src="assets/images/location.png" alt="location">
                     Geneva, CH / Princeton, NJ / Karlovo, BG.

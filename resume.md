@@ -38,11 +38,11 @@ extra_js:
           <div class="timeline-content">
             <h4>Princeton University/CERN</h4>
             <p>
-              Research Software Engineer, Princeton University at European Center
+              Research Software Consultant, Princeton University at European Center
               for Nuclear Research (CERN).
             </p>
             <div class="timeline-date">Mar, 2019 - present
-              <h4 class="system_font_color">Research Software Engineer</h4>
+              <h4 class="system_font_color">Research Software Consultant</h4>
             </div>
           </div>
         </div>
